@@ -28,5 +28,8 @@ A 3-stage training strategy was employed to train a Resnet using ImageNet pre-tr
 
 In the above, an epoch is defined as a sweep through the training set. For both S1 and S1-Big datasets the number of epochs was increased to 200 epochs because it were much smaller datasets than S10. Adam was used as the optimizer and the batch size was set as 32.
 
+## Weights
+Trained weights are available at: [Google Drive](https://drive.google.com/drive/folders/1yfLSB6SSZougTDIc6-37pcZmPNBeVtmz?usp=sharing).
+
 ## Results 
 Results can be found in the corresponding Notebook for Testing.
