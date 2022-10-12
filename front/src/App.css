@@ -1,38 +1,61 @@
-.App {
+.divLeft {
   text-align: center;
+  position: relative;
+  width: "50px";
+  height: "500px";
+  margin-top: 50px;
+  border: 1px dotted blue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.divRight {
+  text-align: center;
+  position: relative;
+  right: 30px;
+  border: 1px dotted blue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.inputButton{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: blue;
   color: white;
+  font-family: sans-serif;
+  font-size: medium;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 3px;
+  border: none;
+  margin-top: 10px;
+  display: inline-block;
+
 }
 
-.App-link {
-  color: #61dafb;
+.uploadButton{
+  background-color: blue;
+  color: white;
+  font-family: sans-serif;
+  font-size: medium;
+  cursor: pointer;
+  width: 160px;
+  height: 50px;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.uploadButton:disabled{
+  background-color: grey;
+  color: white;
+  opacity: 0.7;
+  font-family: sans-serif;
+  font-size: medium;
+  cursor: pointer;
+  width: 160px;
+  height: 50px;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 10px;
 }
